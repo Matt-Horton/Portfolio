@@ -1,0 +1,57 @@
+#mainNav{
+    background-color: #fff;
+    border-bottom: 1px solid rgba(33,37,41,.1);
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    margin-bottom: 0px;
+}
+
+.bk-trans{
+    background-color: transparent;
+}
+
+.bk-white{
+    background-color: #fff!important;
+    border-bottom: 1px solid rgba(33,37,41,.1)!important;
+}
+
+.fixed-top{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+#mainNav .nav-brand{
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #f05f40;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+}
+
+/* Navigation Main Menu Styles */
+#navMenu .navMenuItem a {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #212529;
+}
+
+#navMenu .navMenuItem a:hover{
+    color: #f05f40!important;
+}
+
+@media(min-width: 992px){
+    #mainNav{
+        border-color: transparent;
+        background-color: transparent;
+    }
+
+    #navMenu .navMenuItem.navTop a{
+        color: #fff;
+    }
+
+    #navMenu .navMenuItem.navScrolled a{
+        color: #212529;
+    }
+}

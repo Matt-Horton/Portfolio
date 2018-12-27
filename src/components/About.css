@@ -1,0 +1,49 @@
+#about{
+    background-color: #f05f40;
+    padding: 8rem 0;
+}
+
+.about-container{
+    text-align: center!important;
+    margin-left: auto!important;
+    margin-right: auto!important;
+    clear: both;
+    float: none;
+
+}
+
+.about-heading{
+    margin-top: 0;
+    color: #fff!important;
+}
+
+#about hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    max-width: 50px;
+    border-width: 3px;
+    border-color: #fff;
+}
+
+.about-description{
+    color: rgba(255,255,255,.7);
+    margin-bottom: 1.5rem;
+    font-size: 2rem;
+}
+
+#about .btn{
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 300px;
+    font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
+    padding: 2rem 4rem;
+    cursor: pointer;
+    color: #212529;
+    background-color: #f8f9fa;
+    margin-top: 3rem;
+}
+
+#about .btn:hover{
+    background-color: #e2e6ea;
+}
