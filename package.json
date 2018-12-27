@@ -2,7 +2,7 @@
   "name": "practice-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://Matty-Horton.github.io/",
+  "homepage": "https://Matty-Horton.github.io/Portfolio",
   "dependencies": {
     "@material-ui/core": "^3.7.0",
     "bootstrap": "^4.1.3",
